@@ -18,8 +18,8 @@ end
 
 
 def assign_rooms(attendees)
+# Is there a more efficient way to write the assign_rooms method?
 
-# Is there a more efficient way to write the assign_rooms method?  
   room_list = []
   attendees.each_with_index{ |item, index|
     room_list << "Hello, #{item}! You'll be assigned to room #{index + 1}!"
