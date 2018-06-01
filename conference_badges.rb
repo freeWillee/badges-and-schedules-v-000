@@ -30,9 +30,9 @@ end
 def printer(){
   batch_badge_creator().each do |item|
     puts(item)
-  end  
+  end
 
   assign_rooms().each do |item|
     puts(item)
-  end  
+  end
 }
