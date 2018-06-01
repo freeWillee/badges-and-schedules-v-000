@@ -19,9 +19,7 @@ end
 def assign_rooms(attendees)
   room_list = []
   attendees.each_with_index{ |item, index|
-    room_list[item] = index
-    binding.pry    
+    room_list << "Hello, #{item}! You'll be assigned to room #{index + 1}!"
+    binding.pry
   }
-  room_list << "Hello, #{}! You'll be assigned to room #{i}!"
-  i += 1
 end
