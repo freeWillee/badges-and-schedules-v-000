@@ -35,4 +35,6 @@ def printer(){
   assign_rooms().each do |item|
     puts(item)
   end
+end
+
 }
