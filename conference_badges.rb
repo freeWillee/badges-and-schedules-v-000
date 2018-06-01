@@ -22,5 +22,4 @@ def assign_rooms(attendees)
     room_list << "Hello, #{item}! You'll be assigned to room #{index + 1}!"
   }
   return room_list
-  binding.pry  
 end
